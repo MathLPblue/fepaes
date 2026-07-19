@@ -18,7 +18,8 @@ public class Receita {
     @OneToOne 
     @JoinColumn(name = "idproduto")
     private Produto produto;
-    
+
+    private String nome;
     private int rendimento;
     private int tempoPreparo; 
     private int tempoRefrigeracao; 
